@@ -187,6 +187,7 @@ export default function TournamentOrganizerForm(props: {
         </Box>
 
         <FormActions>
+          {/* this could use a confirmation dialog, and be disabled while changes have not been made */}
           <Button variant="contained" color="secondary" type="reset">
             Atstatyti
           </Button>
